@@ -1,6 +1,6 @@
 PRÁCTICA 1 - SISTEMAS OPERATIVOS
 =================================
-Urbano Samboni Diever Santiago - durvanos@unal.edu.co
+Urbano Samboni Diever Santiago - durbanos@unal.edu.co
 Fecha: 17/03/2026
 
 1. DESCRIPCIÓN DEL DATASET
