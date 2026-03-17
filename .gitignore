@@ -8,9 +8,6 @@ p1-dataProgram
 # Archivos de índice
 bloques.idx
 
-# Dataset (¡no subirlo!)
-personas.csv
-personas_recortado.csv
 
 # Directorios de sistema
 *.swp
