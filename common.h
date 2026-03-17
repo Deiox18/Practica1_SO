@@ -10,13 +10,15 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <signal.h>
-
+// Tamaño máximo de una línea del dataset (suficiente para todos)
 #define MAX_LINE_LEN 500
+// Rutas de las tuberías para la comunicación entre proceso
 #define FIFO_REQ "/tmp/search_req"
 #define FIFO_RESP "/tmp/search_resp"
-#define BLOQUE_SIZE 1000  // cada 1000 registros guardamos un punto de control
+// Tamaño del bloque para el índice
+#define BLOQUE_SIZE 1000  
 
-// Estructura para el índice de bloques (en memoria)
+// Estructura para los bloques
 typedef struct {
     uint32_t person_id;
     uint32_t offset;
